@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Subrayada&display=swap');
+
+.titlemap{
+    font-family: 'Montserrat Subrayada';
+    font-weight: 500;
+    font-size: 7rem;
+    line-height: 10rem;
+
+    margin-left: 3.6rem;
+    color: #FFFFFF;
+    opacity: 0.5;
+}
+.mapafome{
+    display: grid;
+    grid-template-columns: 50rem 50rem;
+    grid-template-rows: 20rem 20rem;
+
+    align-items: center;
+    justify-content: center;
+
+    font-size: 7rem;
+}
+
+.mapafome div{
+    display: relative;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    font-family: montserrat;
+    font-weight: 700;
+    color: #285CA9;
+}
+
+.mapafome h1{
+    display: relative;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    font-size: 6rem;
+
+    font-family: montserrat;
+    font-weight: 700;
+    color: #1A9D0F;
+}
+
+.mapafome p{
+    font-size: 2rem;
+    color: #162D55;
+    font-weight: 700;
+}

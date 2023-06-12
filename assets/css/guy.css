@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Subrayada&display=swap');
+
+
+.guy1 p{
+    text-align: center;
+    margin: 9rem;
+    font-size: 1.8rem;
+    color: #162D55;
+    font-family: montserrat;
+
+}
+
+.guy{
+    background-image: url('../img/image\ 6.svg');
+    background-size: cover;
+    width: 135rem;
+    height: 60rem;
+
+    margin-top: 15rem;
+}

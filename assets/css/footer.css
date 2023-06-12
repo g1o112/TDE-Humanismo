@@ -1,0 +1,26 @@
+footer{
+    background-color: #EEEEEE;
+    height: 20rem;
+
+    margin-top: 10rem;
+}
+
+.logosF{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 10rem;
+}
+
+.logoF{
+    margin-right: 1.5rem;
+}
+
+.logoF img{
+    height: 3rem;
+}
+
+.logosF img{
+    height: 3rem;
+}
+

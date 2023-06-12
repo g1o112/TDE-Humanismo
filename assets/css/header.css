@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+header{
+    background-color: #EEEEEE;
+
+    display: flex;
+    justify-content: space-around;
+
+    padding: 2rem;
+    height: 6.4rem;
+
+    align-items: center;
+}
+
+.logos{
+    display: flex;
+    flex-wrap: wrap;
+
+    height: 3rem;
+}
+
+.logo{
+    margin-right: 1.5rem;
+}
+
+.options{
+    display: flex;
+    gap: 4.4rem;
+
+}
+
+a{
+    font-family: 'montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.5rem;
+    text-decoration: none;
+
+    display: flex;
+    align-items: center;
+
+    color: #162D55;
+    transition: 0.3s;
+}
+
+a:hover{
+    color: #1A9D0F;
+}
+
+.botaoHeader{
+    background: #285CA9;
+    border: 1px solid #EEEEEE;
+    border-radius: 6rem;
+
+    height: 3.5rem;
+    width: 9rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-family: 'montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.5rem;
+    color: #ffff;
+
+    transition: 0.5s;
+}
+
+.botaoHeader:hover{
+    background: #EEEEEE;
+    border: 1px solid #162D55;
+
+    color: #162D55;
+}
